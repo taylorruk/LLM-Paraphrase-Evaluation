@@ -9,3 +9,5 @@ sentencepiece
 accelerate
 bitsandbytes
 seaborn
+huggingface_hub
+tqdm
