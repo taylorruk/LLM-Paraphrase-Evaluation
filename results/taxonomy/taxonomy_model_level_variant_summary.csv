@@ -1,0 +1,10 @@
+model,paraphrase_level,Stable Correct,Brittle Failure,Unstable but Recoverable,Stable Wrong,Total,Stable Correct %,Brittle Failure %,Unstable but Recoverable %,Stable Wrong %
+llama2_7b,light,850,219,126,2867,4062,20.9,5.4,3.1,70.6
+llama2_7b,medium,1163,314,212,3917,5606,20.7,5.6,3.8,69.9
+llama2_7b,strong,1089,486,235,4161,5971,18.2,8.1,3.9,69.7
+mistral_7b,light,1650,210,100,2102,4062,40.6,5.2,2.5,51.7
+mistral_7b,medium,2331,307,122,2846,5606,41.6,5.5,2.2,50.8
+mistral_7b,strong,2256,579,128,3008,5971,37.8,9.7,2.1,50.4
+yi_6b,light,2341,292,151,1278,4062,57.6,7.2,3.7,31.5
+yi_6b,medium,3216,415,198,1777,5606,57.4,7.4,3.5,31.7
+yi_6b,strong,3102,762,239,1868,5971,52.0,12.8,4.0,31.3
