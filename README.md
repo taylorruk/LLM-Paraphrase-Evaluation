@@ -124,6 +124,12 @@ LLM-Paraphrase-Evaluation/
 └── requirements.txt
 
 ```
+## Authors
+- Taylor Uylett-Kerrigan
+- Chathushi Thalpage
+- Aishwarya Ramesh
+- Chengcheng (Jessie) Jiang
+- Aishat Disu
 
 ## Dependencies
 
