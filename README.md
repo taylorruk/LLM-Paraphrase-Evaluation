@@ -29,7 +29,7 @@ https://aclanthology.org/N19-1421
   - Model: `Vamsi/T5_Paraphrase_Paws`
 - **BART Large MNLI**
   - Model: `facebook/bart-large-mnli`
-- **Model Inference (LLaMA, Mistral, Yi)
+- Model Inference (LLaMA, Mistral, Yi)
   - LLaMA 2 7B Chat
     - Model: `meta-llama/Llama-2-7b-chat-hf`
   - Mistral 7B Instruct
@@ -134,4 +134,10 @@ To install:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Compute Resources
+
+- Google Colab Pro / Pro+
+- GPU: A100
+- Total runtime: ~15 Hours
 
