@@ -24,6 +24,19 @@ https://aclanthology.org/N19-1421
   doi = "10.18653/v1/N19-1421"
 }
 ```
+## Models Used
+- **T5 Paraphrase Model**
+  - Model: `Vamsi/T5_Paraphrase_Paws`
+- **BART Large MNLI**
+  - Model: `facebook/bart-large-mnli`
+- **Model Inference (LLaMA, Mistral, Yi)
+  - LLaMA 2 7B Chat
+    - Model: `meta-llama/Llama-2-7b-chat-hf`
+  - Mistral 7B Instruct
+    - Model: `mistralai/Mistral-7B-Instruct-v0.1`
+  - Yi 6B Chat
+    - Model: `01-ai/Yi-6B-Chat`
+
 ## Objectives
 - Analyze semantic drift using Natural Language Inference
 - Evaluate model accuracy across paraphrases
@@ -51,8 +64,74 @@ https://aclanthology.org/N19-1421
    - Extract predicted answers
   
 5. **Evaluation**
-   - Accuracy
-   - Consistency
-   - Weighted & Variance Prompt Sensitivity
-   - Failure Taxonomy
-   - High-Risk Analysis
+   - Accuracy (Percentage of correct predictions compared to ground truth)
+   - Consistency (Agreement between original and paraphrased predictions)
+   - Weighted & Variance Prompt Sensitivity (Severity of changes & variability in model behaviour)
+   - Failure Taxonomy (Stability of answers)
+   - High-Risk Analysis (Categorization of model failures)
+  
+## Project Structure
+
+```text
+LLM-Paraphrase-Evaluation/
+├── data/
+│   ├── raw/
+│   │   └── base_df.csv
+│   ├── processed/
+│   │   ├── filtered_df.csv
+│   │   ├── paraphrase_df.csv
+│   │   ├── eval_df_long.csv
+│   │   └── eval_df_with_nli.csv
+│
+├── results/
+│   ├── experiment_outputs/
+│   │   ├── exp1_df.csv
+│   │   ├── exp2_df.csv
+│   │   ├── exp1_df_semantic.csv
+│   │   ├── exp2_df_semantic.csv
+│   │
+│   ├── final_results/
+│   │   ├── results_exp1.csv
+│   │   ├── results_exp2.csv
+│   │   ├── results_exp1_semantic.csv
+│   │   ├── results_exp2_semantic.csv
+│   │   ├── results_exp1_raw.csv
+│   │   ├── results_exp2_raw.csv
+│   │   ├── results_exp1_semantic_raw.csv
+│   │   └── results_exp2_semantic_raw.csv
+│
+│   ├── summaries/
+│   │   ├── summary_exp1.csv
+│   │   ├── summary_exp2.csv
+│   │   ├── summary_exp1_semantic.csv
+│   │   ├── summary_exp2_semantic.csv
+│   │   ├── wpsi_summary.csv
+│   │
+│   ├── taxonomy/
+│   │   ├── taxonomy_by_level_summary.csv
+│   │   ├── taxonomy_by_model_summary.csv
+│   │   ├── taxonomy_model_level_majority_summary.csv
+│   │   ├── taxonomy_model_level_variant_summary.csv
+│   │   ├── taxonomy_per_level.csv
+│   │   ├── taxonomy_per_variant.csv
+│   │   └── taxonomy_summary.xlsx
+│
+│   └── nli/
+│       └── nli_heatmap_values.csv
+│
+├── notebooks/
+├── README.md
+└── requirements.txt
+
+```
+
+## Dependencies
+
+All required Python packages are listed in `requirements.txt`.
+
+To install:
+
+```bash
+pip install -r requirements.txt
+```
+
