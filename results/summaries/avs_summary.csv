@@ -1,0 +1,4 @@
+model,AVS
+llama2_7b,0.31
+mistral_7b,0.118
+yi_6b,0.161
