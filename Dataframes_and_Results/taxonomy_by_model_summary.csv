@@ -1,4 +1,0 @@
-model,Stable Correct,Brittle Failure,Unstable but Recoverable,Stable Wrong,Total,Stable Correct %,Brittle Failure %,Unstable but Recoverable %,Stable Wrong %
-llama2_7b,3102,1019,573,10945,15639,19.8,6.5,3.7,70.0
-mistral_7b,6237,1096,350,7956,15639,39.9,7.0,2.2,50.9
-yi_6b,8659,1469,588,4923,15639,55.4,9.4,3.8,31.5

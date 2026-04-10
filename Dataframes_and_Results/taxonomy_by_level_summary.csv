@@ -1,4 +1,0 @@
-paraphrase_level,Stable Correct,Brittle Failure,Unstable but Recoverable,Stable Wrong,Total,Stable Correct %,Brittle Failure %,Unstable but Recoverable %,Stable Wrong %
-light,4841,721,377,6247,12186,39.7,5.9,3.1,51.3
-medium,6710,1036,532,8540,16818,39.9,6.2,3.2,50.8
-strong,6447,1827,602,9037,17913,36.0,10.2,3.4,50.4
