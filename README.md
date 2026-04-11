@@ -106,6 +106,7 @@ LLM-Paraphrase-Evaluation/
 │   │   ├── summary_exp1_semantic.csv
 │   │   ├── summary_exp2_semantic.csv
 │   │   ├── wpsi_summary.csv
+|   |   ├── avs_summary.csv
 │   │
 │   ├── taxonomy/
 │   │   ├── taxonomy_by_level_summary.csv
@@ -120,6 +121,14 @@ LLM-Paraphrase-Evaluation/
 │       └── nli_heatmap_values.csv
 │
 ├── notebooks/
+│   ├── 01_setup_and_data.ipynb
+│   ├── 02_paraphrase_generation.ipynb
+│   ├── 03_NLI_filtering.ipynb
+│   ├── 04_llm_inference.ipynb
+│   └── 05_evaluation_and_plots.ipynb
+│
+├── README.md
+├── requirements.txt
 ├── README.md
 └── requirements.txt
 
