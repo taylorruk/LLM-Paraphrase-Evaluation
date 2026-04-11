@@ -99,7 +99,7 @@ LLM-Paraphrase-Evaluation/
 │   │   ├── results_exp2_raw.csv
 │   │   ├── results_exp1_semantic_raw.csv
 │   │   └── results_exp2_semantic_raw.csv
-│
+|   |
 │   ├── summaries/
 │   │   ├── summary_exp1.csv
 │   │   ├── summary_exp2.csv
@@ -116,7 +116,7 @@ LLM-Paraphrase-Evaluation/
 │   │   ├── taxonomy_per_level.csv
 │   │   ├── taxonomy_per_variant.csv
 │   │   └── taxonomy_summary.xlsx
-│
+│   |
 │   └── nli/
 │       └── nli_heatmap_values.csv
 │
